@@ -1,5 +1,5 @@
 # Opptra Discount Engine
-
+Live Demo- https://theayanmalik-discount-engine-assign.vercel.app/
 A customer-facing discount engine for an e-commerce marketplace. Upload discount rules and cart items, see exactly what a shopper pays after brand, platform, and cart-wide offers.
 
 ## Features
