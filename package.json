@@ -6,15 +6,18 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "node --test tests/discountEngine.test.js tests/csvParser.test.js tests/ruleValidator.test.js tests/parseRule.test.js tests/pdfCartParser.test.js tests/acceptance.test.js"
   },
   "dependencies": {
     "papaparse": "^5.4.1",
+    "pdfjs-dist": "^4.10.38",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.2.1",
+    "pdf-lib": "^1.17.1",
     "vite": "^5.0.0"
   }
 }
